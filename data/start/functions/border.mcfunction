@@ -1,0 +1,1 @@
+execute as @s run worldborder set 101 5
