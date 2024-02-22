@@ -4,9 +4,9 @@ tag @a remove Boogey
 title @a subtitle {"text":""}
 
 
-tag @r[tag=!Waiting,scores={Lives=2..}] add Waiting
+tag @r[tag=!Waiting,gamemode=survival] add Waiting
 
-tag @r[scores={Lives=2..},tag=Waiting] add Boogey
+tag @r[gamemode=survival,tag=Waiting] add Boogey
 
 
 tag @a remove Waiting
